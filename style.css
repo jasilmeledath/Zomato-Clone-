@@ -1,0 +1,471 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    width: 100%;
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+/* Header styles */
+
+.navcontainer{
+    width: 80%;
+    margin: auto;
+    
+}
+.header{
+    position: relative;
+}
+.image-container{
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.09);
+}
+.nav{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: #fff;
+}
+.logo-container{
+    width: 50%;
+    float: left;
+    padding-top: 20px;
+}
+.logo{
+    float: left;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+.logo-label{
+    float: left;
+    margin-left: 5px    ;
+}
+.nav-tabs{
+    width: 50%;
+    float:left;
+}
+.nav-labels{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+.nav-table{
+    border-spacing: 30px;
+}
+.content-wrapper{
+    position: absolute;
+    bottom: calc(45% - 11.1rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.white-zomato{
+    top: 0px;
+    left: 0px;
+    height: 19%;
+    width: 19%;
+    object-fit: contain;
+    transform: none;
+    opacity: 1;
+    transition: 1.4s;
+}
+.search-top-text{
+    color: #fff;
+    letter-spacing: 2px;
+    margin: 40px;
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 35px;
+}
+.search-container{
+    background-color: #fff;
+    width: 50%;
+    height: 55px;
+    margin-bottom: 240px;
+    padding-top: 15px;
+    border-radius: 10px;
+}
+.location-logo{
+    margin-left: 10px;
+    float: left;
+    margin-top: 2px;
+}
+.location-input{
+    float: left;
+    margin-left: 10px;
+}
+.malappuram{
+    width: 170px;
+    border: none;
+    letter-spacing: 1px;
+    color: grey;
+    margin-top: 5px;
+}
+.dropdown{
+    width: 20px;
+    float: left;
+    margin-top: 5px;
+}
+.line{
+    
+    color: lightgray;
+    float: left;
+    font-weight: lighter;
+    font-size: 23px;
+}
+.search-icon{
+    float: left;
+    margin-left: 15px;
+    margin-top: 5px;
+    align-items: center;
+    position: center ;
+    color: lightgray;
+}
+.search-label input{
+    border: none;
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 300px;
+    font-size: 14px;
+}
+
+/* partition 1 styles */
+
+.partition1{
+    padding-left: 13%;
+    padding-top: 4%;
+    padding-bottom: 5%;
+}
+.order-online{
+    height: 240px;
+    width: 550px;
+    border-radius: 15px;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-style: solid;
+    transition: transform .2s;
+}
+.order-online:hover{
+    transform: scale(1.05);
+}
+.order-online-image-container{
+    width: 100%;
+    height: 65%;
+    position: relative;
+}
+.order-online-image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.order-online-text-container{
+    width: 100%;
+    height: 35%;
+    padding: 20px;
+}
+#order-online-headtext{
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.order-online-text-container p{
+    margin: 2px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+
+}
+.localities{
+    margin-top: 50px;
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+.localities b{
+    font-weight: 400;
+}
+.localities-box{
+    width: 370px;
+    height: 80px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: lightgray;
+    transition: box-shadow 0.5s ease;
+}
+.localities-box:hover{
+    box-shadow: 2px 2px 5px rgba(36, 36, 36, 0.5);
+}
+.localities-box-text{
+    height: 100%;
+    width: 80%;
+    float: left;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.localities-box-symbol{
+    height:100%;
+    width: 20%;
+    float: left;
+}
+.localities-box-symbol img{
+    margin-top: 30px;
+    margin-left: 40px;
+    
+
+}
+.localities-box-text p{
+    margin: 0;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+.localities-box-text weak{
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+/* partition 2 styles */
+.partition2{
+    width: 100%;
+    height: 480px;
+    margin-top: 50px;
+    background-color: rgb(255, 251, 247);
+}
+.mobile-image-container{
+    height: 100%;
+    width: 50%;
+    float: left;
+    padding-top: 35px;
+    padding-left: 300px;
+}
+.mobile-image-container img{
+    height: 440px;
+    width: 420px;
+}
+.app-download-controls{
+    padding-top: 40px;
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+.download-form{
+    margin-top: 40px;
+}
+.radio-label{
+    font-size: 17px;
+}
+.checkbox{
+    height:20px; 
+    width:20px; 
+    accent-color: rgb(239, 79, 95);
+}
+#contactInput{
+    width: 300px;
+    height: 45px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border-width: 1px;
+    font-size: 18px;
+    font-weight: lighter;
+    float:left;
+}
+.share-button{
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.share-button input{
+    height: 45px;
+    width: 150px;
+    border-radius: 5px;
+    border-width: 0;
+    background-color: rgb(239, 79, 95);
+    color: #fff;
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+.share-button input:hover{
+    background-color: rgb(226, 54, 71);;
+    color: white;
+}
+.images{
+    height: auto;
+    width: 140px;
+    float: left;
+    margin-top: 10px;
+}
+#appstore{
+    margin-left: 20px;
+}
+
+/* partition 3 styles */
+.partition3{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    padding-left: 13%;
+    padding-top: 1%;
+}
+.explore p{
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-left: 20px;
+}
+.option-boxes{
+    width: 82%;
+    height: 65px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: lightgray;
+    margin: 20px;
+}
+.option-boxes p{
+    float: left;
+    margin: 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: black;
+}
+.option-boxes img{
+    float: right;
+    margin: 20px;
+}
+
+
+
+
+
+/* footer styles */
+.footer{
+    width: 100%;
+    height: 460px;
+    background-color: rgb(248, 248, 248);  
+    padding-top: 3.5%;  
+}
+.footer-head{
+    width: 100%;
+    height: 60px;
+    margin-left: 13%;
+}
+.footer-logo{
+    width: 64%;
+    height: 100%;
+    float: left;
+}
+.footer-logo img{
+    float: left;
+    height: 28px;
+    width: auto;
+}
+
+.country{
+    width: 115px;
+    height: 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    border-color: lightgray;
+    float: right;   
+}
+.country img{
+    width: auto;
+    height: 15px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.country span{
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-left: 8px;
+    float: left;
+    color: #000;
+}
+.country down{
+    float: left;
+    margin-right: 4px;
+}
+.footer-language{
+    width: 36%;
+    height: 100%;
+    float: left;
+}
+.language{
+    width: 130px;
+    height: 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    border-color: lightgray;
+    float: left;
+    margin-left: 20px;
+}
+.language svg{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.language span{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #000;
+}
+.footer-body{
+    width: 100%;
+    height: 50%;
+    margin-left: 10%;
+}
+.table{
+    padding: 10px;
+}
+.table ul{
+    margin: 0;
+}
+.table-heading{
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.table-data {
+    margin-top: 15px; 
+}
+.table-data ul{
+    margin-top: 10px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+.h-line{
+    padding-left: 13%;
+    padding-right: 13%;
+    padding-top: 3%;
+}
+.h-line hr{
+    border-width: 1px 0px 0px;
+}
+.h-line p{
+    font-size: 11.5px;
+    color: rgb(79, 79, 79);
+    font-weight: lighter; 
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
